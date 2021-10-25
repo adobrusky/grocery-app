@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import webScraperSlice from '../features/webScraper/webScraperSlice';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    [webScraperSlice.name]: webScraperSlice.reducer,
   },
 });
