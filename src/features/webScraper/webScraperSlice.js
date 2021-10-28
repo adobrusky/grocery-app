@@ -3,7 +3,7 @@ const webScraperSlice = createSlice({
   name: 'webScraper',
   initialState: {
     query: 'initial search query',
-    productInfo: { 'name': 'N/A', 'image': 'N/A', 'price': 'N/A', 'source': 'N/A'},
+    productInfo:{'name': 'Peanut butter', 'image': 'https://www.peanutbutter.com/wp-content/uploads/2019/03/SKIPPY_Product_PB_Spread_Creamy_Peanut_Butter_28oz.png', 'price': 20},
   },
   reducers: {
     setQuery: (webScraper, action) => {

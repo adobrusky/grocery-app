@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,YAAY,CAAC;EACX,gBAAgB,EAAE,IAAI;CACvB",
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACX,gBAAgB,EAAE,IAAI;CACvB;;AAED,AAAA,YAAY,CAAC;EACX,gBAAgB,EAAE,KAAK;CACxB;;AAED,AAAA,cAAc,CAAC;EACb,MAAM,EAAE,IAAI;CACb",
     "sources": [
         "webScraper.module.scss"
     ],
